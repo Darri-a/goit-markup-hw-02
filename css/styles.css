@@ -5,7 +5,7 @@
   --text-color: #000000;
   --accent-color: #2196f3;
   --contacts-color: #757575;
-  --second-contacts-color: #ececec;
+  --second-contacts-color: rgba(255, 255, 255, 0.6);
   --main-back-color: #2f303a;
   --second-back-color: #f5f5f5;
   --third-back-color: #f5f4fa;
@@ -197,13 +197,13 @@ button {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--second-title-color);
 }
 .contacts-map-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--second-title-color);
 }
 
 .contacts-link {
